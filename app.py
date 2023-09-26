@@ -28,7 +28,7 @@ def get_chatroom(name):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('telemedicina.html')
 
 
 @app.route('/login', methods=['POST'])
